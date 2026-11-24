@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "personal-assistant"
+version = "0.1.0"
+description = "Personal assistant CLI for contacts and notes"
+authors = ["Hrigoriu"]
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
